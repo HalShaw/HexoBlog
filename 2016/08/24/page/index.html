@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="爬虫," />
 
 
 
@@ -84,16 +84,26 @@
 
 
 
-<meta name="description" content="本文链接：http://halshaw.github.io/2016/08/24/page/">
+<meta name="description" content="之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。
+首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。
+爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3">
 <meta property="og:type" content="article">
-<meta property="og:title" content="page">
+<meta property="og:title" content="python3+sqlite3+多线程爬取某网站文章">
 <meta property="og:url" content="http://halshaw.github.io/2016/08/24/page/index.html">
 <meta property="og:site_name" content="HalShaw's Blog">
-<meta property="og:description" content="本文链接：http://halshaw.github.io/2016/08/24/page/">
-<meta property="og:updated_time" content="2016-08-24T08:36:41.418Z">
+<meta property="og:description" content="之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。
+首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。
+爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-bd4d04bc748bdf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-292f46eac3e31bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2016-08-27T14:55:18.650Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="page">
-<meta name="twitter:description" content="本文链接：http://halshaw.github.io/2016/08/24/page/">
+<meta name="twitter:title" content="python3+sqlite3+多线程爬取某网站文章">
+<meta name="twitter:description" content="之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。
+首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。
+爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -116,7 +126,7 @@
 
   <link rel="canonical" href="http://halshaw.github.io/2016/08/24/page/"/>
 
-  <title> page | HalShaw's Blog </title>
+  <title> python3+sqlite3+多线程爬取某网站文章 | HalShaw's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -298,7 +308,7 @@
             
             
               
-                page
+                python3+sqlite3+多线程爬取某网站文章
               
             
           </h1>
@@ -316,6 +326,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/技术/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -332,7 +361,7 @@
 
           
           
-             <span id="/2016/08/24/page/" class="leancloud_visitors" data-flag-title="page">
+             <span id="/2016/08/24/page/" class="leancloud_visitors" data-flag-title="python3+sqlite3+多线程爬取某网站文章">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -359,8 +388,157 @@
       
 
       
-        <hr>
-<p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/page/">http://halshaw.github.io/2016/08/24/page/</a></p>
+        <ul>
+<li>之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。</li>
+<li>首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。</li>
+<li>爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3<a id="more"></a> 
+<img src="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></li>
+<li><p>其过程的实现很简单，就是简单的URL抓包提取网页，然后使用了正则表达式来提取数据，然后进行一些错误的判断和改进，并没有使用到太高级的爬虫技巧，还在继续学习之中。</p>
+</li>
+<li><p>源码如下：</p>
+</li>
+</ul>
+<pre><code># -*-coding:utf-8-*-
+
+import urllib.request
+import re
+import sqlite3
+import time
+import random
+import threading
+import urllib.error
+import sys
+import socket
+import io
+from datetime import datetime
+
+
+class Article(object):
+    def __init__(self):
+        self.url=&quot;http://wallstreetcn.com/&quot;
+        self.removeP=re.compile(&apos;&lt;/p&gt;&apos;)#用来提取正文内容
+        self.removeRight=re.compile(&apos;class=&quot;.*?&quot;|align=&quot;.*?&quot;|&gt;&apos;)
+        self.removeStrong=re.compile(&quot;&lt;strong&gt;|&lt;/strong&gt;&quot;)
+        self.removeAddr=re.compile(&apos;&lt;a.*?&gt;|&lt;/a&gt;&apos;)
+        self.replaceBR=re.compile(&apos;&lt;br&gt;&lt;br&gt;|&lt;br&gt;|&lt;/br&gt;&apos;)
+        self.removeImg=re.compile(&apos;&lt;img.*?&gt;| {1,7}|&amp;.*?;&apos;)
+        self.removeExtraTag=re.compile(&apos;&lt;.*?&gt;|style=&quot;.*?&quot;|value=&quot;.*?&quot;&apos;)
+        self.removeNoneLine=re.compile(&apos;\\n+&apos;)
+
+
+def get_content(self,article):
+    #使用正则表达式匹配出标题、作者、日期、内容、第一张大图的url、评论数
+    title = re.findall(r&apos;&lt;h1 class=&quot;article-title&quot;&gt;(.*?)&lt;/h1&gt;&apos;,article,re.S)
+    author=re.search(r&apos;&lt;span class=&quot;item author&quot;&gt;(.*?)target=&quot;_blank&quot;&gt;(.*?)&lt;/a&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+    post_at=re.findall(r&apos;&lt;span class=&quot;item time&quot;&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+    time=post_at[0]
+    year=time[:4]
+    month=time[5:7]
+    day=time[8:10]
+    hour=time[12:]#对有中文时间格式处理，返回值为datetime格式
+
+p_content=re.findall(r&apos;&lt;p(.*?)&lt;/p&gt;&apos;,article,re.S)#正文内容有多种类型，分别匹配
+span_content=re.findall(r&apos;&lt;span&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+if p_content==None:
+    content=span_content
+else:
+    content=p_content
+
+str_data=&apos;&apos;.join(content[:-4])
+removed_p=re.sub(self.removeP,&apos;\\n&apos;,str_data)
+removed_strong=re.sub(self.removeStrong,&apos;&apos;,removed_p)
+removed_addr=re.sub(self.removeAddr,&apos;&apos;,removed_strong)
+removed_br=re.sub(self.replaceBR,&apos;\\n&apos;,removed_addr)
+removed_img=re.sub(self.removeImg,&apos;&apos;,removed_br)
+removed_tag=re.sub(self.removeExtraTag,&apos;&apos;,removed_img)
+removed_right=re.sub(self.removeRight,&apos;&apos;,removed_tag)
+content=re.sub(self.removeNoneLine,&apos;\\n&apos;,removed_right)
+
+
+img_1=re.search(r&apos;&lt;img alt=&quot;(.*?)&quot; src=&quot;(.*?!article\\.foil)&quot; (.*?)&apos;,article,re.M|re.I)#处理文章第一张大图片的url
+img_2=re.search(r&apos;&lt;img src=&quot;(.*?!article\\.foil)&quot; alt=&quot;(.*?)&quot; (.*?)&apos;,article,re.M|re.I)
+if img_1!=None :
+    img=img_1.group(2)
+elif img_2!=None:
+    img=img_2.group(1)
+else:
+    img=None
+
+comment_count=re.findall(r&apos;&lt;span class=&quot;wscn-cm-counter&quot;&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+
+try:
+
+    if img==None and comment_count==None:#有可能文章没有图片和评论，考虑以下几种情况
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),None,0
+    elif img!=None and comment_count==None:
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),str(img),0
+    elif img==None and comment_count!=None:
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),None,int(comment_count[0])
+    else:
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),str(img),int(comment_count[0])
+except Exception as e:
+    pass
+
+def create_table(self):
+    conn=sqlite3.connect(&apos;article.db&apos;)
+    #如果不存在一个art表，新建一个art表
+    conn.execute(&quot;CREATE TABLE IF NOT EXISTS art(title varchar(80) PRIMARY KEY not null, author varchar(10),post_at TEXT not null,content varchar(255) not null,img varchar(20) ,comment_count integer);&quot;)
+    conn.close()
+
+def save_content(self,title,author,post_at,content,img,comment_count):
+    #连接并保存到数据库
+    conn=sqlite3.connect(&apos;article.db&apos;)
+    conn.execute(&quot;INSERT INTO art (title,author,post_at,content,img,comment_count)values(?,?,?,?,?,?)&quot;,(title,author,post_at,content,img,comment_count))
+    result=conn.execute(&quot;SELECT * FROM art&quot;)
+    return list(result)
+    conn.close()
+
+def spider(self):
+    cou=1
+    for i in random.sample(range(19,247271),10000):#随机生成url，数字可以任意
+        try:
+            try:
+                full_url=self.url+&apos;node&apos;+&apos;/&apos;+str(i)#URL格式
+                page = urllib.request.urlopen(full_url,timeout=5)#设置请求时间限制
+                pages= page.read().decode(&apos;utf-8&apos;,&apos;ignore&apos;)
+                lst=self.get_content(pages)
+                #self.save_content(lst[0],lst[1],lst[2],lst[3],lst[4],lst[5])#不打印出结果
+                print(self.save_content(lst[0],lst[1],lst[2],lst[3],lst[4],lst[5]))#打印出结果
+                print(&apos;Downloaded Successfully...\\n&apos;)
+                cou+=1
+                time.sleep(1)
+                if cou&gt;300:#控制爬取300篇文章,可以自行调节文章数量，量力而为
+                    sys.exit()
+                else:
+                    continue
+            except Exception as e:
+                pass
+        except socket.error as e:
+            pass
+
+
+def main(self):
+    #多线程爬取
+    my_thread = threading.Thread(target = self.spider)
+    my_thread.start()
+    my_thread.join()
+
+
+
+if __name__ == &apos;__main__&apos;:
+    a=Article()#实例化
+    a.create_table()
+    a.main()
+</code></pre><ul>
+<li>到此，一个小小的spider就完成了，就可以实现文章的抓取和保存到数据库了，在dos下的显示如下所示。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-bd4d04bc748bdf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-292f46eac3e31bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>最后，由于是第一次写爬虫，不足之处肯定还有很多，欢迎来挑刺，洗耳恭听，一直在学习与进步当中，继续，共勉。</li>
+</ul>
+<hr>
+<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/page/">http://halshaw.github.io/2016/08/24/page/</a></p>
 
       
     </div>
@@ -402,21 +580,27 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/爬虫/" rel="tag">#爬虫</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/08/24/ha/" rel="next" title="ha">
-                <i class="fa fa-chevron-left"></i> ha
+              <a href="/2016/08/24/ha/" rel="next" title="python+flask+sae+微信公众号开发后记">
+                <i class="fa fa-chevron-left"></i> python+flask+sae+微信公众号开发后记
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/08/25/my-first/" rel="prev" title="my first">
-                my first <i class="fa fa-chevron-right"></i>
+              <a href="/2016/08/25/my-first/" rel="prev" title="Hexo搭建个人博客部署于Github与Coding">
+                Hexo搭建个人博客部署于Github与Coding <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -434,7 +618,7 @@
 
       
         <div class="ds-share flat" data-thread-key="2016/08/24/page/"
-     data-title="page"
+     data-title="python3+sqlite3+多线程爬取某网站文章"
      data-content=""
      data-url="http://halshaw.github.io/2016/08/24/page/">
   <div class="ds-share-inline">
@@ -464,7 +648,7 @@
   <div class="comments" id="comments">
     
       <div class="ds-thread" data-thread-key="2016/08/24/page/"
-           data-title="page" data-url="http://halshaw.github.io/2016/08/24/page/">
+           data-title="python3+sqlite3+多线程爬取某网站文章" data-url="http://halshaw.github.io/2016/08/24/page/">
       </div>
     
   </div>
@@ -517,7 +701,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -526,7 +710,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -573,7 +757,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><span class="nav-number">1.</span> <span class="nav-text">本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</span></a></li></ol></div>
             
           </div>
         </section>

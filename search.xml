@@ -4,43 +4,495 @@
   
     
     <entry>
-      <title><![CDATA[my first]]></title>
-      <url>http://halshaw.github.io/2016/08/25/my-first/</url>
-      <content type="html"><![CDATA[<hr>
-<p>本文链接：<br><a href="http://halshaw.github.io/2016/08/25/my-first/">http://halshaw.github.io/2016/08/25/my-first/</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[page]]></title>
-      <url>http://halshaw.github.io/2016/08/24/page/</url>
-      <content type="html"><![CDATA[<hr>
-<p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/page/">http://halshaw.github.io/2016/08/24/page/</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[ha]]></title>
-      <url>http://halshaw.github.io/2016/08/24/ha/</url>
-      <content type="html"><![CDATA[<hr>
-<p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/ha/">http://halshaw.github.io/2016/08/24/ha/</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>http://halshaw.github.io/2016/08/23/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+      <title><![CDATA[先走未必先到]]></title>
+      <url>http://halshaw.github.io/2016/08/25/hello-world/</url>
+      <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/1741029-ac8a9284d811c3a1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="先走未必先到"></p>
+<ul>
+<li><p>或许是待在学校太久了，感觉出趟门都如此疲惫不堪与狼狈至极，居然还意外地晕车了，也许是早餐的缘故吧。许久没有晕车了，想想从前的自己，从一个上了车，吸了几口弥漫在车厢空气中令人恶心的汽油味夹杂着烟味的各种混合味道之后，不出十公里胃里便开始翻江倒海，大脑开始不受控制，眩晕感与恶心感交错着，没过多久就开始呕吐的害怕坐车的小男孩，经由岁月的洗礼成长成为的现在的我，不禁感叹岁月蹉跎。</p>
+</li>
+<li><p>晕车在我上高中之前貌似是一种常态，基本上每次都会。后来去县城上学之后，或许是很少回家，也许是每次回家都抢a到了前排座位吧，反正之后就自然而然地不再晕车。</p>
+<a id="more"></a> </li>
+<li><p>原本是出门接待朋友的，朋友来了，却未曾碰面。心想着难得有机会在千里之外的异乡与自己多年的玩伴相遇，打算好好招待招待。然而却未曾想到，朋友虽然来了，却因种种原因未能碰面。索性就自己去逛街了，走在三年前第一次来到这个陌生城市时的繁华喧嚣的街道上，突然想起三年前的情形，父母送我来到这个城市的第一天，对这个城市的认识就是从这里开始的。</p>
+</li>
+<li><p>独自一人走在街道上，路上的行人还不算多，道路两旁的商店因为还未到开门时间仍旧懒洋洋地闭门不开。由于有点晕车的缘由，看到街边小吃有卖刨冰，便买了一碗，价格却并不可爱，而且味道也并不是想象中的熟悉美好的样子。</p>
+</li>
+<li><p>因为是初夏交替的季节，空气中漂浮着许多柳絮与飞虫，不时地落在碗里，也就更加没有食欲。  一个人走了很多路，爬了很多楼，时间不知不觉也就过去，入手几样满意的物品之后便去吃东西。又去了与好友经常一起去的那家店，点了一份面囫囵下肚之后便返程了。</p>
+</li>
+<li><p>不过也就两个月而已，居然又忘记回去的路，果然记忆力还是不如从前了，已经开始会忘记一些事情了。凭借模模糊糊的印象摸索着，最终还是到了。  买了票上了公交，睡意渐起，却因地形不利便也就没法睡觉，或许是听音乐的频率太高，耳朵也开始抗议，也就听不了音乐。</p>
+</li>
+<li><p>原本以为一帆风顺即可到达目的地，却在路上出现了一些小插曲，在公交车刚从收费站出来的时候，一辆小轿车突然强行变道，插到公交车前面，却由于前面还有其他车堵住了被公交车摩擦到了。就这样，一个小事故发生了，虽然不严重，却耽误了时间。</p>
+</li>
+<li><p>原本在公交站排队时，我前面有三位乘客，一位带着女儿的女士，还有一位戴着耳机看剧的女士，可是排队轮到她们的时候车上就仅剩一个座位了，带小孩的女士选择等待下一辆车，而另外一位女士由于一直在看手机没有注意到车上的情况，我便乘机与查票大叔说明情况，很幸运地成为了最后一个乘客。</p>
+</li>
+<li><p>然而，幸运却没有真正成为想象中幸运，没过多久就出现了先前的小插曲，而且，后面一辆车在我们遇到事故的之后没多久就擦身而过，车上乘客吃惊又兴奋的表情，带着一丝嘲笑和辛亏自己晚了一步的侥幸，之后又等了好久，警察来了拍照取证之后才又开始启程返航。</p>
+</li>
+<li><p>果然，先走的未必能先到达目的地，人生当中总会出现各种意外的小插曲，这也是生活的一部分，有时好有时坏，平常心对待就好。也不必时常羡慕嫉妒比你走得早的而且还走得快的人，不到最后一刻，一切皆有可能。</p>
+</li>
+</ul>
 <hr>
-<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/23/hello-world/">http://halshaw.github.io/2016/08/23/hello-world/</a></p>
+<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/25/hello-world/">http://halshaw.github.io/2016/08/25/hello-world/</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hexo搭建个人博客部署于Github与Coding]]></title>
+      <url>http://halshaw.github.io/2016/08/25/my-first/</url>
+      <content type="html"><![CDATA[<ul>
+<li>早就听说可以自己弄一个博客然后免费部署到github上面，但是一直没机会着手去做，前几天，机缘巧合之下，发现了<a href="https://www.npmjs.com/package/hexo" target="_blank" rel="external">Hexo</a>这个好东西，这才发现原来它就是我苦苦找寻的的东西啊。真是“<strong>踏破铁鞋无觅处，得来全不费功夫。</strong>”啊。</li>
+<li>那好，lz要开始搭建个人博客啦（入坑了）。期间各种坑只能自己体会，虽然外面已经很多搭建的教程了，但是我也来凑个热闹，其实也算是记录一下自己学习的过程，还有期间所遇的各种坑以至于不得不中断到改日再战的坑，在次记录一下让后面的小伙伴们更方便一些，不至于那么惨。</li>
+<li>首先必须<strong>安装一下<a href="https://git-scm.com/downloads" target="_blank" rel="external">Git</a> for windows</strong>,然后申请个<a href="https://github.com/" target="_blank" rel="external">GitHub</a>账号啊，建议日后想从事CS相关的童鞋多上上全球最大的同性交友网站（GitHub），里面的好东西真不少，受益匪浅啊。</li>
+<li>Git不会的童鞋网上搜一下，很简单，在此附上一张命令速查表，方便快捷，虽然貌似后面都没用到git命令。<a id="more"></a> 
+</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-4f7a27cef1b46665.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-e5035d2c74ba60c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Git命令"></p>
+<ul>
+<li>然后是<strong><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>下载</strong>,稳定版和最新版都可以，个人喜好，Hexo是靠node驱动，所以以上除了github以外都是是必须的。</li>
+<li>有不想用国外网站的童鞋也可以使用国内的<a href="https://coding.net" target="_blank" rel="external">Coding</a>，原理一样，反正都是仿Github的。虽说国外网站有可能被墙，而且比起国内的慢一点，但是我同时部署了Coding和Github，后者瞬间就能访问了，而前者，呵呵。</li>
+<li><p>对了，第一个坑来了，安装完毕之后一定要重启，不然后面使用<em>npm</em>命令安装Hexo时会提示找不到命令，然后才能继续后面的步骤。重启完毕之后就可以愉快地开始安装了，在Git Bash端执行下面的命令就可以安装Hexo了。</p>
+<pre><code>$ npm install hexo-cli -g
+</code></pre></li>
+<li><p>然后初始化hexo，进入文件之后就可以执行后面的命令了。</p>
+</li>
+</ul>
+<pre><code>$ hexo init blog
+$ cd blog
+</code></pre><ul>
+<li>介绍一下hexo下用到的命令：</li>
+</ul>
+<pre><code>$ hexo g/generate #生成静态文件
+$ hexo s/server #启动服务器，主要用来本地预览
+$ hexo d/deploy #将本地文件发布到github或Coding上
+$ hexo n/new &quot;postName&quot;#新建一篇文章
+$ hexo n/new page &quot;pageName&quot; #新建页面
+$ hexo h/help # 查看帮助
+$ hexo v/version #查看Hexo的版本
+</code></pre><ul>
+<li>进入文件之后执行<strong>hexo g</strong>和<strong>hexo s</strong>之后然后用浏览器打开<em><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a></em>，不出意外的话，你就可以看到你的博客了，就像下面这个样子的，当然这个博客只是在本地的，hexo3.0使用的默认主题是landscape。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-22f51ce15050f2af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>然后你就可以进行愉快的个性化玩耍了，其中也是各种坑，首先是挑选自己喜欢的<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题</a>，然后使用<strong>git clone</strong>下载到本地，就可以开心地设置了。</li>
+<li>首先打开hexo文件的_condig.yml配置文件，还有一个是themes主题下你选择主题的配置文件_condig.yml，两个配置文件名一样，但是一个是主配置文件，一个是主题配置文件，不要搞混。</li>
+<li>配置过程中也有不少坑，有遇到一个地方多了或者少了个空格什么的导致整个项目不能运行的，还有配置之后没有达到预期效果的，其实只要按照你选择的主题的文档来，仔细一点，基本上是没什么问题的。</li>
+<li>当然，我就是按照文档来配置的，中间也是各种各样的问题，但是，基本上都是网上查查就能查到的普通问题。</li>
+<li>我选的主题是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next.Picces</a>,配置好之后效果如下所示</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-80b1d4c4eb437f5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>有点小清新是不是，嗯，<a href="https://halshaw.github.io/">地址</a>在此,欢迎来踩。</li>
+<li>主题中所包含的功能就已经很多了，比如百度统计、打赏、搜索等功能，只要去找到文件中相对应的地方，然后设置就可以使用了。愚蠢的我一开始还想去自己实现一些功能，但是后来仔细阅读主题文档之后才发现，原来都有啊，其自带的功能已足够满足我等骚年。</li>
+<li>所以我又去百度统计、多说、leancloud网站注册之后，然后拿到id之后放在配置文件中相应的地方就可以了，而且还实现了打赏功能，但是并没什么卵用。</li>
+<li>使用文档很重要啊，这是我主题的<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">使用文档</a>。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-b94e68dd00f6f723.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li><p>好了，到此，你已经配置好本地，然后预览好之后就可以发布了，使用下面</p>
+<pre><code>hexo g
+hexo d
+</code></pre></li>
+<li><p>命令就可以啦，但是天有不测风云，遇到错误，</p>
+<pre><code>ERROR Deployer not found : github
+</code></pre></li>
+<li><p>不用急，执行一下这条命令就可以，还有可能遇到说你的github地址不是仓库，那是因为你的地址没有设置正确，检查一下空格之类的。</p>
+<pre><code>npm install hexo-deployer-git --save
+</code></pre></li>
+<li><p>要想以上命令起作用，前提是你的配置文件已经配置如下，这个是同时发布到Github和Coding上面</p>
+<pre><code>deploy:
+      type: git
+      repo: 
+        coding: git@git.coding.net:HalShaw/halshaw.git,master
+        github: https://github.com/HalShaw/halshaw.github.io.git,master
+</code></pre></li>
+<li><p>如果只想发布到GIthub上，稍微改一下</p>
+<pre><code>deploy:  
+      type: git
+      repository: https://github.com/HalShaw/halshaw.github.io.git 
+      branch: master
+</code></pre></li>
+<li><p>一切顺利的话，就可以啦。但是，慢着，又出现问题了。命令行返回</p>
+<pre><code>Invalid argument
+</code></pre></li>
+<li><p>what?什么鬼？明明本地都可以成功预览了，但是为什么发布不了了呢，我就被这个<strong>hexo d</strong>搞了好久，查了好久才明白，原因是我在我的hexo目录下，我又执行了</p>
+<pre><code>npm install
+</code></pre></li>
+<li><p>又安装了一个hexo，所以不能发布了，所以删除之后就可以高兴滴执行<strong>hexo d</strong>啦。</p>
+</li>
+<li>谢天谢地，终于发布上去了，然而，不到一分钟，我就收到了Github发来的邮件</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-fbd6b116e700b063.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>创建page失败，madan，招谁惹谁了我，怎么遇到这么多问题呢。又是一番搜索之后找到了一个我认为满意的答案</p>
+<ul>
+<li>Make a backup of the content locally</li>
+<li>Delete the repository from GitHub</li>
+<li>Delete the repository locally</li>
+<li>Recreate the repository, ensuring that you don’t include the repository within the repository locally, which is what you did previously</li>
+<li><p>Push it to GitHub</p>
+</li>
+<li><p>意思就是我git仓库里面又包括其他仓库啦，让我把他们搞好之后再上传，果然，我到主题文件下把.git文件删除之后，然后再次发布，终于，大功告成。就是刚才那个小清新的博客啦。</p>
+</li>
+<li><p>然后就开始写文章吧，该博客只支持<a href="http://www.jianshu.com/p/q81RER/" target="_blank" rel="external">markdown</a>语法，所以不会的小伙伴也不要怕，花个几分钟就可以上手啦。在Git终端输入上面的新建文章命令就可以新建一篇文章啦。然后会显示文章所在路径，找到并打开开始写文章吧。</p>
+<pre><code>$ hexo n my first
+INFO  Created: D:\hexo1\hexo\source\_posts\first.md
+</code></pre></li>
+<li><p>打开之后是这样的，你可以自己设置标签和分类，然后就开始写你自己的故事吧。</p>
+<pre><code>title: my first#标题和日期必须唯一，因为访问文章的url是根据二者生成的
+date: 2016-08-25 15:33:58
+tags: &apos;try&apos; #标签
+categories: &quot;技术&quot; #分类
+</code></pre></li>
+<li><p>然后之后写文章每次部署都需要执行如下的命令，需要先清理数据库，生成静态文件之后预览，然后发布。</p>
+</li>
+</ul>
+<pre><code>hexo clean
+hexo g
+hexo s
+hexo d
+</code></pre><ul>
+<li>好啦，到这里，文章已经写好，然后发布之后就可以去找小伙伴炫耀啦。</li>
+</ul>
+<hr>
+<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/25/my-first/">http://halshaw.github.io/2016/08/25/my-first/</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[python3+sqlite3+多线程爬取某网站文章]]></title>
+      <url>http://halshaw.github.io/2016/08/24/page/</url>
+      <content type="html"><![CDATA[<ul>
+<li>之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。</li>
+<li>首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。</li>
+<li>爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3<a id="more"></a> 
+<img src="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></li>
+<li><p>其过程的实现很简单，就是简单的URL抓包提取网页，然后使用了正则表达式来提取数据，然后进行一些错误的判断和改进，并没有使用到太高级的爬虫技巧，还在继续学习之中。</p>
+</li>
+<li><p>源码如下：</p>
+</li>
+</ul>
+<pre><code># -*-coding:utf-8-*-
+
+import urllib.request
+import re
+import sqlite3
+import time
+import random
+import threading
+import urllib.error
+import sys
+import socket
+import io
+from datetime import datetime
+
+
+class Article(object):
+    def __init__(self):
+        self.url=&quot;http://wallstreetcn.com/&quot;
+        self.removeP=re.compile(&apos;&lt;/p&gt;&apos;)#用来提取正文内容
+        self.removeRight=re.compile(&apos;class=&quot;.*?&quot;|align=&quot;.*?&quot;|&gt;&apos;)
+        self.removeStrong=re.compile(&quot;&lt;strong&gt;|&lt;/strong&gt;&quot;)
+        self.removeAddr=re.compile(&apos;&lt;a.*?&gt;|&lt;/a&gt;&apos;)
+        self.replaceBR=re.compile(&apos;&lt;br&gt;&lt;br&gt;|&lt;br&gt;|&lt;/br&gt;&apos;)
+        self.removeImg=re.compile(&apos;&lt;img.*?&gt;| {1,7}|&amp;.*?;&apos;)
+        self.removeExtraTag=re.compile(&apos;&lt;.*?&gt;|style=&quot;.*?&quot;|value=&quot;.*?&quot;&apos;)
+        self.removeNoneLine=re.compile(&apos;\\n+&apos;)
+
+
+def get_content(self,article):
+    #使用正则表达式匹配出标题、作者、日期、内容、第一张大图的url、评论数
+    title = re.findall(r&apos;&lt;h1 class=&quot;article-title&quot;&gt;(.*?)&lt;/h1&gt;&apos;,article,re.S)
+    author=re.search(r&apos;&lt;span class=&quot;item author&quot;&gt;(.*?)target=&quot;_blank&quot;&gt;(.*?)&lt;/a&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+    post_at=re.findall(r&apos;&lt;span class=&quot;item time&quot;&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+    time=post_at[0]
+    year=time[:4]
+    month=time[5:7]
+    day=time[8:10]
+    hour=time[12:]#对有中文时间格式处理，返回值为datetime格式
+
+p_content=re.findall(r&apos;&lt;p(.*?)&lt;/p&gt;&apos;,article,re.S)#正文内容有多种类型，分别匹配
+span_content=re.findall(r&apos;&lt;span&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+if p_content==None:
+    content=span_content
+else:
+    content=p_content
+
+str_data=&apos;&apos;.join(content[:-4])
+removed_p=re.sub(self.removeP,&apos;\\n&apos;,str_data)
+removed_strong=re.sub(self.removeStrong,&apos;&apos;,removed_p)
+removed_addr=re.sub(self.removeAddr,&apos;&apos;,removed_strong)
+removed_br=re.sub(self.replaceBR,&apos;\\n&apos;,removed_addr)
+removed_img=re.sub(self.removeImg,&apos;&apos;,removed_br)
+removed_tag=re.sub(self.removeExtraTag,&apos;&apos;,removed_img)
+removed_right=re.sub(self.removeRight,&apos;&apos;,removed_tag)
+content=re.sub(self.removeNoneLine,&apos;\\n&apos;,removed_right)
+
+
+img_1=re.search(r&apos;&lt;img alt=&quot;(.*?)&quot; src=&quot;(.*?!article\\.foil)&quot; (.*?)&apos;,article,re.M|re.I)#处理文章第一张大图片的url
+img_2=re.search(r&apos;&lt;img src=&quot;(.*?!article\\.foil)&quot; alt=&quot;(.*?)&quot; (.*?)&apos;,article,re.M|re.I)
+if img_1!=None :
+    img=img_1.group(2)
+elif img_2!=None:
+    img=img_2.group(1)
+else:
+    img=None
+
+comment_count=re.findall(r&apos;&lt;span class=&quot;wscn-cm-counter&quot;&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
+
+try:
+
+    if img==None and comment_count==None:#有可能文章没有图片和评论，考虑以下几种情况
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),None,0
+    elif img!=None and comment_count==None:
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),str(img),0
+    elif img==None and comment_count!=None:
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),None,int(comment_count[0])
+    else:
+        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),str(img),int(comment_count[0])
+except Exception as e:
+    pass
+
+def create_table(self):
+    conn=sqlite3.connect(&apos;article.db&apos;)
+    #如果不存在一个art表，新建一个art表
+    conn.execute(&quot;CREATE TABLE IF NOT EXISTS art(title varchar(80) PRIMARY KEY not null, author varchar(10),post_at TEXT not null,content varchar(255) not null,img varchar(20) ,comment_count integer);&quot;)
+    conn.close()
+
+def save_content(self,title,author,post_at,content,img,comment_count):
+    #连接并保存到数据库
+    conn=sqlite3.connect(&apos;article.db&apos;)
+    conn.execute(&quot;INSERT INTO art (title,author,post_at,content,img,comment_count)values(?,?,?,?,?,?)&quot;,(title,author,post_at,content,img,comment_count))
+    result=conn.execute(&quot;SELECT * FROM art&quot;)
+    return list(result)
+    conn.close()
+
+def spider(self):
+    cou=1
+    for i in random.sample(range(19,247271),10000):#随机生成url，数字可以任意
+        try:
+            try:
+                full_url=self.url+&apos;node&apos;+&apos;/&apos;+str(i)#URL格式
+                page = urllib.request.urlopen(full_url,timeout=5)#设置请求时间限制
+                pages= page.read().decode(&apos;utf-8&apos;,&apos;ignore&apos;)
+                lst=self.get_content(pages)
+                #self.save_content(lst[0],lst[1],lst[2],lst[3],lst[4],lst[5])#不打印出结果
+                print(self.save_content(lst[0],lst[1],lst[2],lst[3],lst[4],lst[5]))#打印出结果
+                print(&apos;Downloaded Successfully...\\n&apos;)
+                cou+=1
+                time.sleep(1)
+                if cou&gt;300:#控制爬取300篇文章,可以自行调节文章数量，量力而为
+                    sys.exit()
+                else:
+                    continue
+            except Exception as e:
+                pass
+        except socket.error as e:
+            pass
+
+
+def main(self):
+    #多线程爬取
+    my_thread = threading.Thread(target = self.spider)
+    my_thread.start()
+    my_thread.join()
+
+
+
+if __name__ == &apos;__main__&apos;:
+    a=Article()#实例化
+    a.create_table()
+    a.main()
+</code></pre><ul>
+<li>到此，一个小小的spider就完成了，就可以实现文章的抓取和保存到数据库了，在dos下的显示如下所示。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-bd4d04bc748bdf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-292f46eac3e31bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>最后，由于是第一次写爬虫，不足之处肯定还有很多，欢迎来挑刺，洗耳恭听，一直在学习与进步当中，继续，共勉。</li>
+</ul>
+<hr>
+<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/page/">http://halshaw.github.io/2016/08/24/page/</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[python+flask+sae+微信公众号开发后记]]></title>
+      <url>http://halshaw.github.io/2016/08/24/ha/</url>
+      <content type="html"><![CDATA[<ul>
+<li>最近实名认证了新浪云，送了三百云豆，本来以为可以长期有效，但是没想到坑爹的新浪云即使没有使用，居然也每天自动扣除云豆。这也就解释了为什么我首次开通时候送的两百颗在没有使用的情况下平白无故消失的原因。</li>
+<li>言归正传，也正是新浪云的每天扣豆促使了我这种早有想法却一直懒癌发作的人花了一周来写了个微信公众号功能的开发，使用python+flask写了一个简单的传递消息的页面并部署在sae（新浪云）上来实现功能的发送与回复，用了我在公司实习的一周时间，写下这篇文章记录一下前因后果。<a id="more"></a> </li>
+<li>要开发公众号，首先你得有个公众号对吧，不会的滚去面壁，很简单，去微信公众平台申请一下，然后绑定一下管理员微信号，再登录官网成为开发者设置一下基本配置，如图，url是你sae应用创建后的url，创建之后直接复制过来就可以了，token是自己设置的，目的是为了验证是不是你自己在使用，听说是出于安全考虑，然并卵，但是后面开发中对接的时候会用到，然后就可以进行微信公众号开发者了。<br><img src="http://upload-images.jianshu.io/upload_images/1741029-00895fb0c0694481.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-1924c989ca1835a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>接下来是去sae新建一个web应用，选的是创建云应用，目前只支持python2.7版本。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-3b0c90de8e4e5c53.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>自己填好二级域名之后和应用名称之后就创建好了，域名可以随便填，只要不和别人已创建的冲突就行。然后这个域名就是上文中微信开发中需要的url直接搬过去就可以啦。</li>
+<li>然后接下来就是代码事情了，我使用的是git，如图，选择GIt之后上传代码即可。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-f519d3543e22629a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-f256cd889fd20944.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>接下来就是代码的事情了。。。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-72302004d8496dda.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-6d5aaaa87e5d0ce5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-22d0aa131841229d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>代码中有一共三个文件，功能比较多的话可以自行扩展，在此仅开发了部分功能，一个文件已足够写入功能模块。两个配置文件中的信息如图所示，一个申明一下名字和版本信息，另一个引入sae，然后从代码中引入flask实例app，然后使用sae创建一下即可。</li>
+<li>本次实现的功能有天气查询、讲个笑话还有有道翻译，本来网上还有实现机器人对话的实现实例，但是我也试了一下，查到网络上有那种可以直接一键对接的，根本不需要自己开发的，所以觉得没意思，就放弃这个功能了。</li>
+<li>其实以上功能的实现也并没有多大难度，因为都有现成的api直接调用，自己只需对接然后实现一下数据的格式化就可以了。本次实验主要体验一下微信公众号开发的具体实现过程，并没有花太多时间在更多功能的实现，而且新浪云每天都在扣云豆，很快就会失效，所以仅做学习交流。</li>
+<li>首先是理解一下数据的具体传输过程，其实flask就起了个传递值的作用。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-37bf82ef50e6d39c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>然后是具体接入微信公众号，文档解释得很清楚了。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-5e665e8d59d0c33b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>python具体对接实现。</li>
+</ul>
+<pre><code>@app.route(&apos;/&apos;,methods=[&apos;GET&apos;,&apos;POST&apos;])
+def wechat():
+if request.method==&apos;GET&apos;:
+token=&apos;你的token&apos;
+data=request.args
+signature=data.get(&apos;signature&apos;,&apos;&apos;)
+timestamp=data.get(&apos;timestamp&apos;,&apos;&apos;)
+nonce =data.get(&apos;nonce&apos;,&apos;&apos;)
+echostr=data.get(&apos;echostr&apos;,&apos;&apos;)
+s=[timestamp,nonce,token]
+s.sort()
+s=&apos;&apos;.join(s)
+if(hashlib.sha1(s).hexdigest()==signature):
+return make_response(echostr)
+else:
+rec=request.stream.read()
+xml_rec=ET.fromstring(rec)
+tou = xml_rec.find(&apos;ToUserName&apos;).text
+fromu = xml_rec.find(&apos;FromUserName&apos;).text
+content = xml_rec.find(&apos;Content&apos;).text
+xml_rep = &quot;&lt;xml&gt;&lt;ToUserName&gt;&lt;![CDATA[%s]]&gt;&lt;/ToUserName&gt;&lt;FromUserName&gt;&lt;![CDATA[%s]]&gt;&lt;/FromUserName&gt;&lt;CreateTime&gt;%s&lt;/CreateTime&gt;&lt;MsgType&gt;&lt;![CDATA[text]]&gt;&lt;/MsgType&gt;&lt;Content&gt;&lt;![CDATA[%s]]&gt;&lt;/Content&gt;&lt;FuncFlag&gt;0&lt;/FuncFlag&gt;&lt;/xml&gt;&quot;
+</code></pre><ul>
+<li>功能函数的判断</li>
+</ul>
+<pre><code>if content.lower()==&apos;joke&apos;:#笑话功能
+            response = make_response(xml_rep % (fromu,tou,str(int(time.time())),joke()))
+            response.content_type=&apos;application/xml&apos;
+            return response
+elif &apos;tianqi&apos; in content.lower():#天气功能判断，实现汉字查询天气
+    if type(content).__name__ == &quot;unicode&quot;:
+        content = content.encode(&apos;UTF-8&apos;)
+        place=content.lower().replace(&apos;+tianqi&apos;,&apos;&apos;)
+        response = make_response(xml_rep % (fromu,tou,str(int(time.time())),weather(place)))
+        response.content_type=&apos;application/xml&apos;
+        return response
+    else:
+        place=content.lower().replace(&apos;+tianqi&apos;,&apos;&apos;)
+        response = make_response(xml_rep % (fromu,tou,str(int(time.time())),weather(place)))
+        response.content_type=&apos;application/xml&apos;
+        return response
+else:
+    if type(content).__name__ == &quot;unicode&quot;:#实现汉译英
+        content = content.encode(&apos;UTF-8&apos;)
+        new_word=youdao(content)
+        response = make_response(xml_rep % (fromu,tou,str(int(time.time())),new_word))
+        response.content_type=&apos;application/xml&apos;
+        return response
+    else:
+        new_word=youdao(content)
+        response = make_response(xml_rep % (fromu,tou,str(int(time.time())),new_word))
+        response.content_type=&apos;application/xml&apos;
+        return response
+</code></pre><ul>
+<li>公众号发送和回复的消息格式都是xml格式，开发者文档中有具体的解释，发送和接收消息格式如下，然后使用python中的xml.etree.ElementTree提取数据，传递给第三方调用的API，处理后返回值，再继续转化成xml格式经web响应返回给微信。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-2be01249491771d6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-e136038b7929a594.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>接下来就是具体功能函数的实现了，首先要有有道的API key和百度API store的账号才能调用，去有道官网申请一下就可以，百度API store只需要有个百度账号就可以了，API key在直接复制一下就可以用了。</li>
+<li>翻译和笑话因为使用json格式比较方便，直接解析后获取字典的值就可以了，然后返回格式按个人喜好设计。天气的返回值虽然也是json格式，但是因为他里面套了多层字典，一层一层找比较麻烦，所以就使用了正则表达式简单粗暴一点提取数据，然后自己写一下返回格式，再套入xml格式中返回给微信用户。</li>
+<li>代码：</li>
+</ul>
+<pre><code>#-*- coding: UTF-8 -*-
+import time
+import urllib2
+from flask import Flask,g,request,make_response
+import hashlib
+import xml.etree.ElementTree as ET
+import json
+import random
+import re
+import urllib
+
+app=Flask(__name__)
+app.debug=True
+
+def youdao(word):
+quary=urllib2.quote(word)
+baseurl=r&apos;http://fanyi.youdao.com/openapi.do?keyfrom=自己的&amp;key=自己的&amp;type=data&amp;doctype=json&amp;version=1.1&amp;q=&apos;
+url=baseurl+quary
+resp=urllib2.urlopen(url)
+data=json.loads(resp.read())
+if data[&apos;errorCode&apos;] == 0:
+if &apos;basic&apos; in data.keys():
+trans=u&apos;%s:\\n%s\\n%s\\n网络释意:\\n%s&apos;%(data[&apos;query&apos;],&apos;&apos;.join(data[&apos;translation&apos;]),&apos; &apos;.join(data[&apos;basic&apos;][&apos;explains&apos;]),&apos;&apos;.join(data[&apos;web&apos;][0][&apos;value&apos;]))
+return trans
+else:
+trans =u&apos;%s:\\n基本翻译:%s\\n&apos;%(data[&apos;query&apos;],&apos;&apos;.join(data[&apos;translation&apos;]))
+return trans
+elif data[&apos;errorCode&apos;] == 20:
+return u&apos;对不起，要翻译的文本过长&apos;
+elif data[&apos;errorCode&apos;] == 30:
+return u&apos;对不起，无法进行有效的翻译&apos;
+elif data[&apos;errorCode&apos;] == 40:
+return u&apos;对不起，不支持的语言类型&apos;
+else:
+return u&apos;对不起，你输入的单词%s无法翻译,请检查拼写&apos;% word
+
+def joke():
+try:
+for i in random.sample(range(335),1):
+page=&apos;page=&apos;+str(i)
+full_url=&apos;http://apis.baidu.com/showapi_open_bus/showapi_joke/joke_text?&apos;+page
+req = urllib2.Request(full_url)
+req.add_header(&quot;apikey&quot;, &quot;自己的key&quot;)
+resp = urllib2.urlopen(req,timeout=5)
+data= json.loads(resp.read())
+for i in random.sample(range(len(data[&apos;showapi_res_body&apos;][&apos;contentlist&apos;])),1):
+return data[&apos;showapi_res_body&apos;][&apos;contentlist&apos;][i][&apos;title&apos;]+&apos;\\n&apos;+data[&apos;showapi_res_body&apos;][&apos;contentlist&apos;][i][&apos;text&apos;]+&apos;\\n&apos;
+except Exception:
+return u&apos;抱歉，你运气不好，没有人愿意给你讲笑话，请重试。&apos;
+
+def weather(city_name):
+str_city=&apos;city=&apos;+str(city_name)
+url=&apos;http://apis.baidu.com/heweather/weather/free?&apos;+str_city
+req = urllib2.Request(url)
+req.add_header(&quot;apikey&quot;, &quot;自己的key&quot;)
+resp = urllib2.urlopen(req)
+content= resp.read().decode(&apos;utf-8&apos;)
+city=re.findall(r&apos;&quot;city&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+update=re.findall(r&apos;&quot;loc&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+txt=re.findall(r&apos;&quot;txt_d&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+max_t=re.findall(r&apos;&quot;max&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+min_t=re.findall(r&apos;&quot;min&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+hum=re.findall(r&apos;&quot;hum&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+pcpn=re.findall(r&apos;&quot;pcpn&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+vis=re.findall(r&apos;&quot;vis&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+wind_dir=re.findall(r&apos;&quot;dir&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+wind_sc=re.findall(r&apos;&quot;sc&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+wind_spd=re.findall(r&apos;&quot;spd&quot;:&quot;(.*?)&quot;&apos;,content,re.S)
+return u&apos;城市：&apos;+city[0]+&apos;\\n&apos;+u&apos;更新时间：&apos;+update[0]+&apos;\\n&apos;+u&apos;天气情况：&apos;+txt[0]+&apos;\\n&apos;+u&apos;最高温度：&apos;+max_t[0]+u&apos;度&apos;+&apos;\\n&apos;+u&apos;最低温度：&apos;+min_t[0]+u&apos;度&apos;+&apos;\\n&apos;+u&apos;相对湿度：&apos;+hum[0]+&apos;%&apos;+&apos;\\n&apos;+u&apos;降水量：&apos;+pcpn[0]+&apos;mm&apos;+&apos;\\n&apos;+u&apos;能见度：&apos;+vis[0]+&apos;km&apos;+&apos;\\n&apos;+u&apos;风向：&apos;+wind_dir[0]+&apos;\\n&apos;+u&apos;风力：&apos;+wind_sc[0]+&apos;\\n&apos;+u&apos;风速：&apos;+wind_spd[0]+&apos;km/h&apos;+&apos;\\n&apos;
+</code></pre><p>`        </p>
+<ul>
+<li>至此，功能已全部实现，使用git上传代码到新浪云之后就可以使用啦。下面是使用演示，公众号应该过不了多久功能就会失效，可恶的sae，就不贴出啦。对于回复图片功能和语音功能没有继续深入，有兴趣的小伙伴可以自行研究。回复语音消息基本原理与文本消息类似，但是还需要调用一下微信另外的接口先返回一个media_id，然后再传递。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-e03119c0dd132b2f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-fd59fad60cc46419.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<ul>
+<li>最后，花了半天时间写下这篇文章，以此记录学习和生活的点滴，第一次写博文，还有点小激动。不足之处，恳请指正。</li>
+</ul>
+<hr>
+<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/ha/">http://halshaw.github.io/2016/08/24/ha/</a></p>
 ]]></content>
     </entry>
     
