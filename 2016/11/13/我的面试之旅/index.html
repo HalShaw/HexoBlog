@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="爬虫," />
+  <meta name="keywords" content="找工作," />
 
 
 
@@ -84,26 +84,23 @@
 
 
 
-<meta name="description" content="之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。
-首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。
-爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3">
+<meta name="description" content="先自我介绍一下，博主今年大四，坐标上海某理工，学的计算机专业，保不上研之后看了两个月高数之后果断放弃考研，就开始了人生中的找工作之旅。
+从五六月份的找实习，到九十月份的找工作，鬼知道我经历了什么。但是还是能从体重上的变化看出找工作果然还是有压力的，五六月份为了丰富简历内容，匆忙找了一家互联网公司实习之后，尽管我每天下班回学校后还坚持去楼下足球场跑步，但是还是控制不住体重的飙升，两个月下来体重接">
 <meta property="og:type" content="article">
-<meta property="og:title" content="python3+sqlite3+多线程爬取某网站文章">
-<meta property="og:url" content="http://halshaw.github.io/2016/08/24/page/index.html">
+<meta property="og:title" content="我的面试之旅">
+<meta property="og:url" content="http://halshaw.github.io/2016/11/13/我的面试之旅/index.html">
 <meta property="og:site_name" content="HalShaw's Blog">
-<meta property="og:description" content="之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。
-首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。
-爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-bd4d04bc748bdf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-292f46eac3e31bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2016-08-27T14:55:18.650Z">
+<meta property="og:description" content="先自我介绍一下，博主今年大四，坐标上海某理工，学的计算机专业，保不上研之后看了两个月高数之后果断放弃考研，就开始了人生中的找工作之旅。
+从五六月份的找实习，到九十月份的找工作，鬼知道我经历了什么。但是还是能从体重上的变化看出找工作果然还是有压力的，五六月份为了丰富简历内容，匆忙找了一家互联网公司实习之后，尽管我每天下班回学校后还坚持去楼下足球场跑步，但是还是控制不住体重的飙升，两个月下来体重接">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-2b41e2b12a87565d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-377103975daa4e05.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1741029-85a995e92ebaacde.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2016-11-13T14:09:58.929Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="python3+sqlite3+多线程爬取某网站文章">
-<meta name="twitter:description" content="之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。
-首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。
-爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3">
-<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta name="twitter:title" content="我的面试之旅">
+<meta name="twitter:description" content="先自我介绍一下，博主今年大四，坐标上海某理工，学的计算机专业，保不上研之后看了两个月高数之后果断放弃考研，就开始了人生中的找工作之旅。
+从五六月份的找实习，到九十月份的找工作，鬼知道我经历了什么。但是还是能从体重上的变化看出找工作果然还是有压力的，五六月份为了丰富简历内容，匆忙找了一家互联网公司实习之后，尽管我每天下班回学校后还坚持去楼下足球场跑步，但是还是控制不住体重的飙升，两个月下来体重接">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1741029-2b41e2b12a87565d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -124,9 +121,9 @@
 
 
 
-  <link rel="canonical" href="http://halshaw.github.io/2016/08/24/page/"/>
+  <link rel="canonical" href="http://halshaw.github.io/2016/11/13/我的面试之旅/"/>
 
-  <title> python3+sqlite3+多线程爬取某网站文章 | HalShaw's Blog </title>
+  <title> 我的面试之旅 | HalShaw's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -308,7 +305,7 @@
             
             
               
-                python3+sqlite3+多线程爬取某网站文章
+                我的面试之旅
               
             
           </h1>
@@ -320,8 +317,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-24T16:36:41+08:00" content="2016-08-24">
-              2016-08-24
+            <time itemprop="dateCreated" datetime="2016-11-13T00:00:00+08:00" content="2016-11-13">
+              2016-11-13
             </time>
           </span>
 
@@ -334,8 +331,8 @@
               <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/技术/" itemprop="url" rel="index">
-                    <span itemprop="name">技术</span>
+                  <a href="/categories/面试/" itemprop="url" rel="index">
+                    <span itemprop="name">面试</span>
                   </a>
                 </span>
 
@@ -350,8 +347,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/08/24/page/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/08/24/page/" itemprop="commentsCount"></span>
+                <a href="/2016/11/13/我的面试之旅/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/13/我的面试之旅/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -361,7 +358,7 @@
 
           
           
-             <span id="/2016/08/24/page/" class="leancloud_visitors" data-flag-title="python3+sqlite3+多线程爬取某网站文章">
+             <span id="/2016/11/13/我的面试之旅/" class="leancloud_visitors" data-flag-title="我的面试之旅">
                &nbsp; | &nbsp;
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -388,157 +385,83 @@
       
 
       
-        <ul>
-<li>之前有爬取过某网站内容，抓取该网站发表的文章内容并保存到数据库，最近又想学一些爬虫方面的知识，所以把之前写的内容翻出来写一写笔记。</li>
-<li>首先使用谷歌浏览器分析网页源码，因为该网站是并没有涉及什么js、css渲染等动态网页，所以爬取的过程相对简单。</li>
-<li>爬取了该网站的标题、作者、发表时间、评论数、第一张大图的url和内容，然后格式化数据并保存到sqlite3<a id="more"></a> 
-<img src="http://upload-images.jianshu.io/upload_images/1741029-633e21c50b5ea4ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></li>
-<li><p>其过程的实现很简单，就是简单的URL抓包提取网页，然后使用了正则表达式来提取数据，然后进行一些错误的判断和改进，并没有使用到太高级的爬虫技巧，还在继续学习之中。</p>
-</li>
-<li><p>源码如下：</p>
-</li>
-</ul>
-<pre><code># -*-coding:utf-8-*-
-
-import urllib.request
-import re
-import sqlite3
-import time
-import random
-import threading
-import urllib.error
-import sys
-import socket
-import io
-from datetime import datetime
-
-
-class Article(object):
-    def __init__(self):
-        self.url=&quot;http://wallstreetcn.com/&quot;
-        self.removeP=re.compile(&apos;&lt;/p&gt;&apos;)#用来提取正文内容
-        self.removeRight=re.compile(&apos;class=&quot;.*?&quot;|align=&quot;.*?&quot;|&gt;&apos;)
-        self.removeStrong=re.compile(&quot;&lt;strong&gt;|&lt;/strong&gt;&quot;)
-        self.removeAddr=re.compile(&apos;&lt;a.*?&gt;|&lt;/a&gt;&apos;)
-        self.replaceBR=re.compile(&apos;&lt;br&gt;&lt;br&gt;|&lt;br&gt;|&lt;/br&gt;&apos;)
-        self.removeImg=re.compile(&apos;&lt;img.*?&gt;| {1,7}|&amp;.*?;&apos;)
-        self.removeExtraTag=re.compile(&apos;&lt;.*?&gt;|style=&quot;.*?&quot;|value=&quot;.*?&quot;&apos;)
-        self.removeNoneLine=re.compile(&apos;\\n+&apos;)
-
-
-def get_content(self,article):
-    #使用正则表达式匹配出标题、作者、日期、内容、第一张大图的url、评论数
-    title = re.findall(r&apos;&lt;h1 class=&quot;article-title&quot;&gt;(.*?)&lt;/h1&gt;&apos;,article,re.S)
-    author=re.search(r&apos;&lt;span class=&quot;item author&quot;&gt;(.*?)target=&quot;_blank&quot;&gt;(.*?)&lt;/a&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
-    post_at=re.findall(r&apos;&lt;span class=&quot;item time&quot;&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
-    time=post_at[0]
-    year=time[:4]
-    month=time[5:7]
-    day=time[8:10]
-    hour=time[12:]#对有中文时间格式处理，返回值为datetime格式
-
-p_content=re.findall(r&apos;&lt;p(.*?)&lt;/p&gt;&apos;,article,re.S)#正文内容有多种类型，分别匹配
-span_content=re.findall(r&apos;&lt;span&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
-if p_content==None:
-    content=span_content
-else:
-    content=p_content
-
-str_data=&apos;&apos;.join(content[:-4])
-removed_p=re.sub(self.removeP,&apos;\\n&apos;,str_data)
-removed_strong=re.sub(self.removeStrong,&apos;&apos;,removed_p)
-removed_addr=re.sub(self.removeAddr,&apos;&apos;,removed_strong)
-removed_br=re.sub(self.replaceBR,&apos;\\n&apos;,removed_addr)
-removed_img=re.sub(self.removeImg,&apos;&apos;,removed_br)
-removed_tag=re.sub(self.removeExtraTag,&apos;&apos;,removed_img)
-removed_right=re.sub(self.removeRight,&apos;&apos;,removed_tag)
-content=re.sub(self.removeNoneLine,&apos;\\n&apos;,removed_right)
-
-
-img_1=re.search(r&apos;&lt;img alt=&quot;(.*?)&quot; src=&quot;(.*?!article\\.foil)&quot; (.*?)&apos;,article,re.M|re.I)#处理文章第一张大图片的url
-img_2=re.search(r&apos;&lt;img src=&quot;(.*?!article\\.foil)&quot; alt=&quot;(.*?)&quot; (.*?)&apos;,article,re.M|re.I)
-if img_1!=None :
-    img=img_1.group(2)
-elif img_2!=None:
-    img=img_2.group(1)
-else:
-    img=None
-
-comment_count=re.findall(r&apos;&lt;span class=&quot;wscn-cm-counter&quot;&gt;(.*?)&lt;/span&gt;&apos;,article,re.S)
-
-try:
-
-    if img==None and comment_count==None:#有可能文章没有图片和评论，考虑以下几种情况
-        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),None,0
-    elif img!=None and comment_count==None:
-        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),str(img),0
-    elif img==None and comment_count!=None:
-        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),None,int(comment_count[0])
-    else:
-        return str(title[0]),str(author.group(2)),datetime.strptime(year+&apos;-&apos;+month+&apos;-&apos;+day+&apos; &apos;+hour,&apos;%Y-%m-%d %H:%M:%S&apos;),&apos;&apos;.join(content),str(img),int(comment_count[0])
-except Exception as e:
-    pass
-
-def create_table(self):
-    conn=sqlite3.connect(&apos;article.db&apos;)
-    #如果不存在一个art表，新建一个art表
-    conn.execute(&quot;CREATE TABLE IF NOT EXISTS art(title varchar(80) PRIMARY KEY not null, author varchar(10),post_at TEXT not null,content varchar(255) not null,img varchar(20) ,comment_count integer);&quot;)
-    conn.close()
-
-def save_content(self,title,author,post_at,content,img,comment_count):
-    #连接并保存到数据库
-    conn=sqlite3.connect(&apos;article.db&apos;)
-    conn.execute(&quot;INSERT INTO art (title,author,post_at,content,img,comment_count)values(?,?,?,?,?,?)&quot;,(title,author,post_at,content,img,comment_count))
-    result=conn.execute(&quot;SELECT * FROM art&quot;)
-    return list(result)
-    conn.close()
-
-def spider(self):
-    cou=1
-    for i in random.sample(range(19,247271),10000):#随机生成url，数字可以任意
-        try:
-            try:
-                full_url=self.url+&apos;node&apos;+&apos;/&apos;+str(i)#URL格式
-                page = urllib.request.urlopen(full_url,timeout=5)#设置请求时间限制
-                pages= page.read().decode(&apos;utf-8&apos;,&apos;ignore&apos;)
-                lst=self.get_content(pages)
-                #self.save_content(lst[0],lst[1],lst[2],lst[3],lst[4],lst[5])#不打印出结果
-                print(self.save_content(lst[0],lst[1],lst[2],lst[3],lst[4],lst[5]))#打印出结果
-                print(&apos;Downloaded Successfully...\\n&apos;)
-                cou+=1
-                time.sleep(1)
-                if cou&gt;300:#控制爬取300篇文章,可以自行调节文章数量，量力而为
-                    sys.exit()
-                else:
-                    continue
-            except Exception as e:
-                pass
-        except socket.error as e:
-            pass
-
-
-def main(self):
-    #多线程爬取
-    my_thread = threading.Thread(target = self.spider)
-    my_thread.start()
-    my_thread.join()
-
-
-
-if __name__ == &apos;__main__&apos;:
-    a=Article()#实例化
-    a.create_table()
-    a.main()
-</code></pre><ul>
-<li>到此，一个小小的spider就完成了，就可以实现文章的抓取和保存到数据库了，在dos下的显示如下所示。</li>
-</ul>
-<p><img src="http://upload-images.jianshu.io/upload_images/1741029-bd4d04bc748bdf27.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1741029-292f46eac3e31bf3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+        <p><img src="http://upload-images.jianshu.io/upload_images/1741029-2b41e2b12a87565d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="面试"></p>
 <ul>
-<li>最后，由于是第一次写爬虫，不足之处肯定还有很多，欢迎来挑刺，洗耳恭听，一直在学习与进步当中，继续，共勉。</li>
+<li>先自我介绍一下，博主今年大四，坐标上海某理工，学的计算机专业，保不上研之后看了两个月高数之后果断放弃考研，就开始了人生中的找工作之旅。</li>
+<li>从五六月份的找实习，到九十月份的找工作，鬼知道我经历了什么。但是还是能从体重上的变化看出找工作果然还是有压力的，五六月份为了丰富简历内容，匆忙找了一家互联网公司实习之后，尽管我每天下班回学校后还坚持去楼下足球场跑步，但是还是控制不住体重的飙升，两个月下来体重接近70kg。</li>
+<li>然后到了双十一的时候，公司居然安排了这一天签三方，一切谈妥之后带着协议就去签了，就在双十一的这一天把自己“卖”出去了。<a id="more"></a> </li>
+<li>正好学校组织体测，明显感觉自己在找工作这段时间瘦了的我体重变回64kg，权当减肥了。</li>
+<li>找工作期间，博主前前后后大概投了五十份简历，宣讲会大概跑了二十多家，一周基本上每天都去，还有下午和晚上都有的情况，大部分宣讲会现场笔试、投简历，收到十五家面试邀请，最后拿到五个offer，面霸、offer霸请忽略，在此记录一下面试的心路历程。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-377103975daa4e05.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="选择"></p>
+<ul>
+<li>从9月5号开始，面了第一家公司，名字叫做搜股控股，是一家做互联网金融的，也不知道是怎么找到我的，我清楚记得自己是没有投过简历的，然后就收到电话说我很符合他们的职位，想邀请我过去面试，然后就去了，好歹是个机会嘛！</li>
+<li>一开始感觉还挺顺利的，就问了项目、经验等，然后换技术总监来了，问了我有没有做过数据分析，有用过哪些包等等，因为博主并没有学过数据分析方面的工作，所以我就如实回答了，然后就让我回来等消息了，然后就没有消息了。</li>
+</ul>
+<ul>
+<li>下面是中兴的面试了，中兴不像其他知名点的公司，一开始就用笔试题来刷人，只是弄了个能力测评，所以博主很幸运地通过测评，进入面试环节，而不像其他某Ａ某Ｂ，笔试环节直接被刷掉。</li>
+<li>貌似从一开始就注定了这次面试的不顺，公司一开始安排的是周三晚上去面试，但是，周三晚上有课啊！而且就因为上周有其他的笔试，翘了一次没去上课，班长已经在群里放话了，一共四次课，两次不到就直接挂了，这是要把我逼上绝路啊！</li>
+<li>无奈联系老师，向他说明情况之后老师说可以，但是需要请假条。转而想到找辅导员开请假条，想着原本应该可以的，但是辅导员霸气一句不准假打破了我想通过正规渠道解决这个问题的幻想，做好了找人代课的打算，正发愁要找谁呢，突然又收到一条短信说面试时间因某些原因调整到下午两点了。还能说什么呢，真是不到最后一刻，一切皆有可能啊！</li>
+<li>然后到时间了，灰蒙蒙的天一早就开始酝酿着下雨的情绪，雨量还不小。下课吃完饭回到宿舍，带上雨伞和证件，匆匆赶往地铁站奔赴目的地。</li>
+<li>一个多小时的路程过后，出了地铁站，由于第一次来的缘故，分不清东南西北，跟着手机地图找了好一会才到，时间刚刚好。</li>
+<li>到了之后要先去签到，然后才面试，签到之后坐在沙发上等候的时候，有点紧张，毕竟是第一次来面试这么大的公司，一方面是有点紧张，另一方面是有点没底，不知道会被问到什么问题，该怎么回答等等。</li>
+<li>等待了大概十分钟左右，人事姐姐叫到我的名字就让我进去了，让我去的房间还有人在里面，我又在外面等了两分钟。人事姐姐发现我还在房间外面等着，又走了过来问我面试的是C还是JAVA，我就说C吧，然后又给我换了一个房间。敲门进去之后，是两位男面试官，先让我一番自我介绍之后就开始问专业性的问题了。</li>
+<li>问题的话也没多问什么，就说项目、经验啊什么的，后来让写了个斐波数列，我一行代码实现之后，又看了看成绩单之后。问我愿不愿意去测试，我擅长的Python在人家公司不能用来开发，心想着先拿个offer再说，就算是测试也可以，就说了可以，然后就过了一面，出来之后又让等了一会。</li>
+<li>然后人事姐姐就给了我一个牌子，让我上楼去二面，说实话，过了一面还是有点意外的，因为有很多人一面出来就被打发回去了，我之前的目标也是至少也要上楼一探究竟，但是，貌似也就是这样了。</li>
+<li>二面是一男一女，两个HR面，一开始也是让我自我介绍，我照着刚刚在楼下的介绍重新说了一遍，不起作用了，介绍的太少了，然后HR姐姐就问了我介绍完了吗，我说完了，她说兴趣爱好特长呢，我也就顺着她的问题就回答了，貌似从开头就已经知道了结局。因为博主说了喜欢看美剧，后面又让我用英文讲述一下最喜欢的美剧，当时我的内心是崩溃的，因为我在网上查了是要用英语自我介绍，所以只准备了简单的自我介绍，支支吾吾半天说不上来，结果可想而知，就此结束。</li>
+</ul>
+<ul>
+<li>接下来是普华永道信息技术的面试了，这家公司是来学校校招的，当时是和室友一起去的，博主一开始并不清楚这家公司是干什么的，后来上网查了一下才知道是四大会计师事务所之一，然后PWC-SDC是其下面的一家子公司，宣讲会当天晚上笔试，全英文的，但是内容并不难，只是些基础的计算机相关知识，所以博主有幸进入面试环节，然后室友早早交卷就走了。</li>
+<li>因为是外企的原因还是怎样，居然要求正装出席面试，正巧赶上十一黄金周，无奈只能去买了人生中的第一套正装，在十一的最后一天去了这家公司参加面试。面试的形式是群面，七个人一组，都是校友，每人先用英文自我介绍，然后给了一个案例，大家一起讨论给出解决方案，给我们的案例是一艘快沉的船上有各种人，然后只有一艘救生艇只能救六个人，请选择你要救的人，并说明为什么，每个人说出自己的观点，然后最后选一个代表向面试官陈述观点以及解释为什么。然后最后由面试官依次提问，还问了一下项目，但是没有过多的技术问题，貌似是博主英语水平有限和其他原因，就挂了。但是收获还是不小，人生中第一次穿正装，第一次群面，而且还是英文的，这也算是为后面做了铺垫吧。</li>
+</ul>
+<ul>
+<li>接下来是平安科技，很早就投了简历，也只是能力测评，然后同样收到面试邀请，在面试的前两天，还举行了见面会，就是邀请大家去他们公司听听宣讲什么的，而且还有水果糕点，这一点很不错，然后还有问答环节，有奖问答，可惜博主并没有答对问题，所以就没有拿到他们的吉祥物公仔，但是同行的小伙伴拿到了。</li>
+<li>然后出来混还是要还的，这家公司要求面试时带自己生活照，但是博主手机里除了自拍就没什么生活照，找了一张去年暑假的照片拿去洗了，由于时间匆忙，只能多花点钱了。然而并没有什么用，到场之后，先把材料交了，然后等了十几分钟之后就被叫去面试了，面试官正好是前几天见面会上分享技术问题的技术总监，小伙伴戏称他为“陈奕迅”，并且问答环节就是他问的问题，我没有答对。面试居然又碰到他了，后来结果果然不出我所料。先自我介绍，然后问项目，问学过的内容，我感觉都还足以应付，然后又问了Java方面的东西，答的不好，五分钟不到，就被打发回来了。</li>
+</ul>
+<ul>
+<li>接下来是数禾科技，因为已经有小伙伴在这家公司了，而且也来我们学校宣讲，所以也就去了，而且现场投的简历也很通过了筛选，收到了面试通知。</li>
+<li>这家公司又是张江的长泰广场，已经去过好几次了，和前面的PWC和搜股在同一个地方，而且是相邻的大楼。到了之后，又遇到了一个同班的小伙伴，还有好多本校的研究生，原来是我们学校的专场。</li>
+<li>然后大家先做笔试题，做完之后让我们自己去吃饭，吃完饭后又等了一个多小时才面试，面试过程呢也还可以，感觉没出什么岔子，而且最后又让我等一下，貌似还有希望的样子，可是等了一会就打发回去了。之后我还满怀希望的等了好几天，但是却始终没有等到。</li>
+</ul>
+<ul>
+<li>然后是天翼旗下的甜橙金融，也是来的学校宣讲，然后现场笔试，无奈不会C++和Java，选了一个数据分析师岗，而且工作地点在广州，做的笔试题居然是写营销方案和向上级领导请示修健身房，我内心真是凌乱的，然而可笑的是居然还收到了面试邀请，而且要求带十份简历。</li>
+<li>所以也就抱着试试看的心态去了，在一家酒店里举行的面试，到了之后差不多等了一个小时才轮到我们，十份简历代表着又是群面，然而我还是第一个自我介绍的，接着是案例分析，阿里的月饼门事件，如何看待，有没有更好的解决方法。貌似案例分析只是个幌子，一点用都没有，之后就是针对每个人提问了，问了技术，有交大和华师的两个研究生，面试官问了他们好多问题，都答的挺好，而又问了我几个数据分析的问题，毫无头绪，又去充当炮灰了。其中还有本校的另外三个研究生，就我一个本科生，他们有两个是化工专业的去面的产品经理，另一个自动化的，但是貌似结果和我是一样的。</li>
+</ul>
+<ul>
+<li>下面是先锋商泰，工作地点在淮海路，楼下就是商场，也是来的学校校招，先笔试，一上来就是几十道C语言题目，然而在我快速做完交卷之后居然也收到了面试邀请。所以就去了，面试的是嵌入式C开发岗，问了些项目的问题，还有Linux命令和GIt命令，感觉都答的挺好的，而且面试官也和我说让我回去等两天左右，然后满怀信心的回来等消息了。但是，等来的却是笔试和面试中表现优异，但是与招聘职位不符，我……应该是C语言没做过什么项目，所以就被拒了。到此面了这么几家都还没拿到offer，没事，后面还有很多机会。</li>
+</ul>
+<ul>
+<li>然后是春秋航空，来学校宣讲的时候现场抽机票，有九套往返国内外机票，东航只有一套，而且当时在现场只有六十来个人，所以当时是相当的兴奋，但是直到最后都没有抽到，而且宣讲了好长时间，最后投递了简历就走了，也没想到会收到面试邀请，但是宣讲的时候看了一下他家的薪资，不太满意，但是还是去了。</li>
+<li>那天早上面的一家不知名创业公司后就直接去了，在春秋航空俱乐部里面，只想说环境有点差，周围环境和公司里面的环境，在沙发上坐了一会之后，来了个华师的妹纸，也是来面试的，一起聊了一下找工作的辛酸历程，最后发现她居然是研究生，只不过看起来不太像，后来又是填表又是笔试，笔试之后面试，问了好多不擅长的问题，所以本来是有两轮面试的，但是技术面完之后就被打发回去了，也好，一开始就不太想去。</li>
+</ul>
+<ul>
+<li>然后又是一家创业公司和一家硬件相关的公司，两家都收到了offer，前者薪资高一点，但是周六也算工作日，每天8点开始到下午6点，而且距离学校也挺远的。后者貌似是偏硬件，而且感觉发展并不好，发了邮件给HR问了几个问题也没有回，所以就拒了这两家。</li>
+</ul>
+<ul>
+<li>接下来就是博主最后的选择了，名字就不透露啦，这家也是来的学校招聘，那天还下雨了，现场笔试，有部分技术部分智力题，感觉答的还不错，果然就收到了面试邀请，约的周六早上，一起找工作的小伙伴也收到了，但是他是约的下午。</li>
+<li>本来也没抱太大希望去的，所以也就并没有好好准备，到了之后遇到另一个同学，填完表之后开始面试。第一轮是技术面，自我介绍、项目、知识点，然后因为有好几个知识点没答好，而且又坐在窗边，穿了黑色衣服，阳光挺好的，被问的我满头大汗，后来又问到几个我擅长的，都答出来了。感觉答得一点都不好，所以我都已经打算好找下一家的准备了。</li>
+<li>然而，又来了一个面试官，又来一轮面试，就问了一些比较简单的问题，团队合作、项目经历、担任职务、英文介绍、未来打算等等，感觉还不错。</li>
+<li>然后又让我等了几分钟，出乎我的意料，HR来了，简单问了一下个人情况就开始谈工资了，因为第一轮技术面被问得有点心虚，所以就把期望薪资说的低了往常一点，然后又聊了几分钟，她说了我笔试成绩还挺好的，又让我问了她问题，然后又是经理面。</li>
+<li>经理让我自我介绍了一下，又问了为什么不继续读研、未来发展、其中一个笔试题之后，简单聊了一下，就说让我回去等消息了，然后我就站了起来，发现经理也站起来并且帮我把门打开了，就是这一动作让我感觉有希望了。</li>
+<li>果然，虽然等了好几天，但是最终还是收到了offer，那天寝室就我一个人，都已经躺下打算睡觉了，突然收到一个北京的号码打来的电话，原本还以为是邀请我去参加宣讲会的，没想到接起来之后，对方说了一个熟悉的公司名字之后，整个人都沸腾了。等了这么久，终于收到了通知，后来谈了一下薪资待遇和之后的工作问题，工资就是那天我说的期望薪资，听到的时候都不太敢相信，差点按耐不住自己怦怦跳动的小心脏，然后就答应了去了。后来就拿着公司发来的offer，去找辅导员拿了三方协议，在双十一的那天下午去公司签了，也就为自己找工作之旅画上了一个句号。</li>
+<li>但是同时去面试的同学和小伙伴就没有那么幸运了，上午一起面的同学和我一样通过了四轮面试，但是貌似是他工资开的价太高了，而且他最后一轮经理面回答的不是很好，所以就很遗憾。然而下午去的那个小伙伴更伤心了，我早上去的时候都叫他和我一起去面了算了，但是他说他约的是下午，他就下午才去了，他说第一轮技术感觉回答的还可以，但是居然一轮技术面下来，就被人事打发回来了。而且我们水平差不多，甚至于公司所用的开发语言他们比我还要熟悉一点，但是很幸运的我还是拿到了offer，结束了找工作之旅，或者说是运气的成分大了一点吧。</li>
+</ul>
+<ul>
+<li>最后一家是CSC，一家外企，面试地点在人民广场，在等待面试的时候，透过玻璃就可以看见不远处的东方明珠和南京东路，风景很是不错，然而我也不太清楚为什么找的我，当时面试的时候还说的是从很厚的简历里面挑出来的四个人，然后才有机会来面试，四个人里面再选两个，面试过程相对轻松，没问什么技术问题，都在聊天，学习、生活、个人问题，也要求用英文介绍一下家乡，而且聊天过程中得知我是HR推荐四人中排名第一的，我当时是懵的，但是有点小窃喜。</li>
+<li>还有了解到招聘我们去不是做研发，而是做的SAP顾问，主要任务是跑业务，和客户打交道，而且只是实习，有不能留用的风险，所以也就不太想去。但是，讽刺的是，居然在我签了三方之后刚刚回到学校才收到这家的电话offer，所以呢，也没什么后悔的，果断拒了。</li>
+</ul>
+<ul>
+<li>至此，找工作之旅告一段落，从九月开始，一直持续到十一月，终于找到自己满意的工作，实属不易，其间辛苦只有自己知道。但是，还是很感谢一直陪伴我的小伙伴，我们一起跑宣讲，一起笔试，一起面试，也希望他赶紧找到自己满意的工作。</li>
+</ul>
+<ul>
+<li>对于还在找工作的小伙伴，给出点个人建议，仅供参考。<br>1.做好准备，机会是留给有准备的人的。<br>2.对自己要有自信，你自己都不相信自己能做到，别人会信吗？<br>3.不要心急，想找份工作容易，但是想找自己满意的不容易，把之前的面试经历好好反思总结，后面就会越挫越勇。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/1741029-85a995e92ebaacde.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="加油"></p>
+<ul>
+<li>最后，祝大家都找到自己满意的工作，要相信山重水复疑无路，柳暗花明又一村！</li>
 </ul>
 <hr>
-<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/08/24/page/">http://halshaw.github.io/2016/08/24/page/</a></p>
+<h3 id="本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"><a href="#本作品采用-知识共享署名-2-5-中国大陆许可协议-进行许可，欢迎转载，但转载请注明来自HalShaw’s-Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。" class="headerlink" title="本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。"></a>本作品采用 知识共享署名 2.5 中国大陆许可协议 进行许可，欢迎转载，但转载请注明来自HalShaw’s Blog，并保持转载后文章内容的完整。本人保留所有版权相关权利。</h3><p>本文链接：<br><a href="http://halshaw.github.io/2016/11/13/我的面试之旅/">http://halshaw.github.io/2016/11/13/我的面试之旅/</a></p>
 
       
     </div>
@@ -582,7 +505,7 @@ if __name__ == &apos;__main__&apos;:
       
         <div class="post-tags">
           
-            <a href="/tags/爬虫/" rel="tag">#爬虫</a>
+            <a href="/tags/找工作/" rel="tag">#找工作</a>
           
         </div>
       
@@ -591,17 +514,13 @@ if __name__ == &apos;__main__&apos;:
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/08/24/ha/" rel="next" title="python+flask+sae+微信公众号开发后记">
-                <i class="fa fa-chevron-left"></i> python+flask+sae+微信公众号开发后记
+              <a href="/2016/09/05/Python爬虫爬取美剧网站-0/" rel="next" title="Python爬虫爬取美剧网站">
+                <i class="fa fa-chevron-left"></i> Python爬虫爬取美剧网站
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/08/25/hello-world/" rel="prev" title="先走未必先到">
-                先走未必先到 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -617,10 +536,10 @@ if __name__ == &apos;__main__&apos;:
     <div class="post-spread">
 
       
-        <div class="ds-share flat" data-thread-key="2016/08/24/page/"
-     data-title="python3+sqlite3+多线程爬取某网站文章"
+        <div class="ds-share flat" data-thread-key="2016/11/13/我的面试之旅/"
+     data-title="我的面试之旅"
      data-content=""
-     data-url="http://halshaw.github.io/2016/08/24/page/">
+     data-url="http://halshaw.github.io/2016/11/13/我的面试之旅/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -647,8 +566,8 @@ if __name__ == &apos;__main__&apos;:
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/08/24/page/"
-           data-title="python3+sqlite3+多线程爬取某网站文章" data-url="http://halshaw.github.io/2016/08/24/page/">
+      <div class="ds-thread" data-thread-key="2016/11/13/我的面试之旅/"
+           data-title="我的面试之旅" data-url="http://halshaw.github.io/2016/11/13/我的面试之旅/">
       </div>
     
   </div>
